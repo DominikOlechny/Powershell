@@ -23,13 +23,13 @@ try {
         }
         
         Write-Host "Pomyślnie dodano użytkownika $targetUser do wszystkich grup użytkownika $sourceUser."
-        Read-Host "Nacisnij enter aby kontynulowac...."
+        Read-Host "Nacisnij enter aby kontynuowac...."
     } else {
         Write-Host "Użytkownik $sourceUser nie istnieje."
-        Read-Host "Nacisnij enter aby kontynulowac...."
+        Read-Host "Nacisnij enter aby kontynuowac...."
         
     }
 } catch {
     Write-Host "Wystąpił błąd: $_"
-    Read-Host "Nacisnij enter aby kontynulowac...."
+    Read-Host "Nacisnij enter aby kontynuowac...."
 }
